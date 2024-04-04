@@ -9,8 +9,8 @@ def query(text_input: str):
     data = {"query": text_input}
     response = requests.post(
         URL, data=json.dumps(data), headers={"Content-Type": "application/json"}
-    ).json()
-    return response
+    )
+    return response.json()["answer"]
 
 
 def app():

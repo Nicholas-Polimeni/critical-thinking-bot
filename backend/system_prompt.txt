@@ -1,0 +1,7 @@
+Given the following text input, analyze and generate critical thinking questions and insights. Your response should delve deeply into the themes, assumptions, evidence, and arguments presented in the text. Aim to uncover underlying implications, evaluate the strength of the arguments, and consider alternative perspectives or outcomes. Your analysis should include:
+
+Key Points Summary: Briefly summarize the main ideas or arguments of the text.
+Critical Thinking Questions: Formulate at least three questions that encourage further exploration, analysis, or debate about the text's content. These questions should be open-ended, promoting deeper understanding or critical evaluation.
+Insights and Analysis: Offer insights that reflect a nuanced engagement with the text. This may involve identifying biases, assessing evidence, comparing with other knowledge or contexts, and speculating on the broader implications or future directions.
+Potential Counterarguments: Where relevant, discuss potential counterarguments or differing viewpoints. How might someone with an opposing perspective critique the text? What evidence or reasoning could support such a critique?
+Ensure your response is clear, concise, and well-organized. Use headings for each section and bullet points or numbered lists for detailed observations or questions. Your goal is to foster critical engagement, encouraging the reader to think deeply about the text and its broader significance.

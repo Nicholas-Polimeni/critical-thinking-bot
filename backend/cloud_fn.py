@@ -1,28 +1,29 @@
 import os
 import functions_framework
-from openai import OpenAI
+import anthropic
 
-API_KEY = os.environ.get("API_KEY", "Not set")
-print(API_KEY)
-client = OpenAI(api_key=API_KEY)
+API_KEY = os.environ.get("API_KEY")
+client = anthropic.Anthropic(api_key=API_KEY)
 
 QUERY_PARAM = "query"
 
 
-def call_openai(text_input: str):
+def call_ai(text_input: str):
 
-    completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {
-                "role": "system",
-                "content": "Given the above text, please generate critical reading questions. Please quote specific parts of the text.",
-            },
-            {"role": "user", "content": text_input},
-        ],
+    SYSTEM = ""
+    with open("system_prompt.txt", "r") as f:
+        SYSTEM = f.read()
+
+    message = client.messages.create(
+        model="claude-instant-1.2",
+        max_tokens=1000,
+        temperature=0.0,
+        system=SYSTEM,
+        messages=[{"role": "user", "content": text_input}],
     )
 
-    return completion.choices[0].message
+    print(message.content[0].text)
+    return message.content[0].text
 
 
 @functions_framework.http
@@ -36,8 +37,9 @@ def hello_http(request):
         Response object using `make_response`
         <https://flask.palletsprojects.com/en/1.1.x/api/#flask.make_response>.
     """
-    request_json = request.get_json(silent=True)
-    request_args = request.args
+    print(request)
+    request_json = request.get_json()
+    print(request_json)
 
     if not request_json:
         return "Status 404"
@@ -47,4 +49,5 @@ def hello_http(request):
     else:
         return "Status 400"
 
-    return call_openai(text_input)
+    resp = call_ai(text_input)
+    return {"answer": resp}
