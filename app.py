@@ -15,15 +15,20 @@ def query(text_input: str):
 
 def app():
     st.title("Critical Thinking Bot")
-    main, about = st.tabs(["Home", "About"])
+    main, about = st.tabs(["Enter Your Text", "How to Use"])
 
     with main:
-        text_input = st.text_area("Enter your text here:")
+        with st.form("input"):
+            text_input = st.text_area(
+                "Enter text from a news article, website, etc. for a critical reading analysis:"
+            )
 
-        if text_input:
-            with st.spinner("Please wait..."):
-                answer = query(text_input)
-                st.write(answer)
+            submitted = st.form_submit_button("Submit")
+            if submitted:
+                with st.spinner("Please wait..."):
+                    answer = query(text_input)
+                    st.write(answer)
+                    st.toast("Text has been analyzed!")
 
     with about:
         st.write("about...")
