@@ -24,7 +24,9 @@ def generate_article():
 
 def app():
     st.title("Critical Thinking Bot")
-    main, about, ex1 = st.tabs(["Enter Your Text", "How to Use", "Example 1"])
+    main, about, ex1, ex2 = st.tabs(
+        ["Enter Your Text", "How to Use", "Example 1", "Example 2"]
+    )
 
     with main:
         if "text_val" not in st.session_state:
@@ -56,6 +58,10 @@ def app():
 
     with ex1:
         with open("ex1.txt", "r", encoding="utf-8") as f:
+            st.write(f.read())
+
+    with ex2:
+        with open("ex2.txt", "r", encoding="utf-8") as f:
             st.write(f.read())
 
 
