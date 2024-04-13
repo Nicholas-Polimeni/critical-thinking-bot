@@ -6,12 +6,18 @@ API_KEY = os.environ.get("API_KEY")
 client = anthropic.Anthropic(api_key=API_KEY)
 
 QUERY_PARAM = "query"
+GEN_PARAM = "generate"
 
 
-def call_ai(text_input: str):
+def call_ai(text_input: str, query: bool):
 
     SYSTEM = ""
-    with open("system_prompt.txt", "r") as f:
+    path = None
+    if query:
+        path = "system_prompt.txt"
+    else:
+        path = "gen_prompt.txt"
+    with open(path, "r") as f:
         SYSTEM = f.read()
 
     message = client.messages.create(
@@ -44,10 +50,14 @@ def hello_http(request):
     if not request_json:
         return "Status 404"
 
+    query = True
     if QUERY_PARAM in request_json:
         text_input = request_json[QUERY_PARAM]
+    elif GEN_PARAM in request_json:
+        text_input = request_json[GEN_PARAM]
+        query = False
     else:
         return "Status 400"
 
-    resp = call_ai(text_input)
+    resp = call_ai(text_input, query)
     return {"answer": resp}

@@ -1,0 +1,3 @@
+Generate a fake news article, about 500 words in length, that will be used as an example for a critical reading text. That is, your article should be well written, but contain some assumptions or other potentially false premises, which a user should analyze.
+
+An additional user prompt may provide you with more instructions.
