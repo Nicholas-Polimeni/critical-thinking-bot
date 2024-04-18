@@ -5,17 +5,3 @@ Welcome to the Critical Thinking Bot! In today's digital age, it's more importan
 To begin, simply copy and paste the text you'd like to analyze into the app. Then, click "Submit" to get started.
 
 Our app will guide you through the analysis process step by step. First, it will help you identify the main claims and arguments presented in the article. Then, it will assist you in evaluating the credibility of the sources cited and the evidence provided to support the claims.
-
-Our app offers several tools and features to aid in your critical analysis, including:
-- Fact-checking resources to verify information
-- Logical fallacy detection to identify flawed reasoning
-- Bias detection to uncover any potential biases in the article
-
-Here are some tips and guidelines to keep in mind as you analyze news articles:
-- Question everything: Don't take information at face value; always ask questions and seek evidence.
-- Consider multiple perspectives: Look for diverse sources and viewpoints to get a more comprehensive understanding of the issue.
-- Verify information: Double-check facts and statistics using reliable sources before accepting them as true.
-
-Test your critical thinking skills with our practice exercises! We've provided examples on our Example Pages!
-
-Congratulations! You've completed the guide on how to use the Critical Thinking Bot. By applying the skills you've learned, you'll become a more discerning consumer of news and information!

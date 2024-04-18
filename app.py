@@ -32,10 +32,34 @@ def app():
     with main:
         if "text_val" not in st.session_state:
             st.session_state["text_val"] = ""
+
+        st.write(
+            """
+                ### About
+                 This application provides a critical reading analysis of a text. This analysis is intended to help you generate
+                 your own questions and analysis.
+                 
+                 For more information about how to use the tool, see the "How to Use" tab.
+                 
+                 For walk-through examples, see the "Example 1" and "Example 2" tabs.
+                 """
+        )
+
+        st.write("### Use the Tool ↓")
+        st.info(
+            """
+            Note: if you do not want to provide your own text, but want to see how the tool works, press the "Generate Article" button.
+            This will fill the textbox with an AI generated article. Please note that clicking the button multiple times may generate the
+            same article to prevent unnecessary requests.
+            """
+        )
+
         text_area_str = "Enter text from a news article, website, etc. for a critical reading analysis:"
         placeholder = st.empty()
         text_input = placeholder.text_area(
-            text_area_str, value=st.session_state.text_val, height=400
+            label="Paste or insert your text here",
+            value=st.session_state.text_val,
+            height=400,
         )
 
         if st.button("Generate Article", type="secondary"):
@@ -57,11 +81,25 @@ def app():
         with open("how_to_use.txt", "r", encoding="utf-8") as f:
             st.write(f.read())
 
+        with open("how_to_use_2.txt", "r", encoding="utf-8") as f:
+            st.info(f.read())
+
+        with open("how_to_use_3.txt", "r", encoding="utf-8") as f:
+            st.write(f.read())
+
     with ex1:
+
+        with st.expander("Article Text", expanded=True):
+            with open("ex1_text.txt", "r", encoding="utf-8") as f:
+                st.write(f.read())
         with open("ex1.txt", "r", encoding="utf-8") as f:
             st.write(f.read())
 
     with ex2:
+        with st.expander("Article Text", expanded=True):
+            with open("ex1_text.txt", "r", encoding="utf-8") as f:
+                st.write(f.read())
+
         with open("ex2.txt", "r", encoding="utf-8") as f:
             st.write(f.read())
 

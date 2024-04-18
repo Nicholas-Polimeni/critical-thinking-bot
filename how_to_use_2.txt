@@ -1,0 +1,9 @@
+Our app offers several tools and features to aid in your critical analysis, including:
+- Fact-checking resources to verify information
+- Logical fallacy detection to identify flawed reasoning
+- Bias detection to uncover any potential biases in the article
+
+Here are some tips and guidelines to keep in mind as you analyze news articles:
+- Question everything: Don't take information at face value; always ask questions and seek evidence.
+- Consider multiple perspectives: Look for diverse sources and viewpoints to get a more comprehensive understanding of the issue.
+- Verify information: Double-check facts and statistics using reliable sources before accepting them as true.
