@@ -45,6 +45,8 @@ def app():
                  """
         )
 
+        st.image("img_for_critical_thinking_bot.jpg", use_column_width=True)
+
         st.write("### Use the Tool ↓")
         st.info(
             """
