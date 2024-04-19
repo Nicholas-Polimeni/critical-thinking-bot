@@ -5,7 +5,7 @@ import streamlit as st
 URL = r"https://us-east1-critical-thinking-bot-419021.cloudfunctions.net/critical-thinking-bot"
 
 
-# force update
+# force update 1
 def query(text_input: str):
     data = {"query": text_input}
     response = requests.post(
