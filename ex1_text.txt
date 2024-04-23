@@ -1,12 +1,13 @@
 # Article Text
-
 *This article was taken from The New York Times on April 11.*
+> When picking an article to analyze using AI, try to pick one that will benefit from critical analysis, like one talking about political issues, controversial topics, or making extreme statements.
+In this case, the article is commenting on Japan's approach to making their royalty relevant to younger generations, which falls under the general category of cultural commentary.*
 
 > In 2019, I waited for hours in the Tokyo heat, in a crowd of thousands, for a glimpse of royalty. The crowd snapped photos and waved flags as Naruhito stood high above us, behind glass in his first public appearance as Japan’s emperor. He waved. I think he also smiled. Sweat dripped down my neck.
 
 > It was all a bit underwhelming, much like [the imperial family’s first social media account, on Instagram](https://www.instagram.com/kunaicho_jp), which went public last week. It is, expectedly, a bore: No selfies or phone snaps here, few flickers of personality.
 
-> It’s not surprising that [a 2019 poll](https://www.nhk.or.jp/bunken/research/yoron/pdf/20200301_9.pdf)  [found](https://www.nippon.com/en/in-depth/d00912/) that a bit more than half of 18-to-29-year-olds in Japan have little or no interest in the imperial household. Even creating an Instagram account seems like an acknowledgment by the monarchy that it’s straining to connect with its people and fighting for relevance in a shifting world.
+> It’s not surprising that [a 2019 poll](https://www.nhk.or.jp/bunken/research/yoron/pdf/20200301_9.pdf) [found](https://www.nippon.com/en/in-depth/d00912/) that a bit more than half of 18-to-29-year-olds in Japan have little or no interest in the imperial household. Even creating an Instagram account seems like an acknowledgment by the monarchy that it’s straining to connect with its people and fighting for relevance in a shifting world.
 
 > But if you look hard enough at the page, there are glimpses through the veil: The royals stand before bonsai trees and seem to smile. They kneel in front of earthquake survivors — a symbolic gesture with [decades of precedent](https://mainichi.jp/english/articles/20181219/p2a/00m/0na/002000c). The institution has never been much for outsize personalities, so this may be all we get. But it is progress.
 

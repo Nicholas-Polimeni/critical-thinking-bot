@@ -3,5 +3,3 @@
 Welcome to the Critical Thinking Bot! In today's digital age, it's more important than ever to think critically about the news we consume. This guide will walk you through how to use our app to analyze news articles effectively.
 
 To begin, simply copy and paste the text you'd like to analyze into the app. Then, click "Submit" to get started.
-
-Our app will guide you through the analysis process step by step. First, it will help you identify the main claims and arguments presented in the article. Then, it will assist you in evaluating the credibility of the sources cited and the evidence provided to support the claims.

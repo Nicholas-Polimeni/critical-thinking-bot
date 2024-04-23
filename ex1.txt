@@ -1,6 +1,7 @@
 # AI Analysis of Article
 
-*To get this AI analysis, I entered the article's text in the Critical Thinking Bot's text input box.*
+*To get this AI analysis, I entered the article's text in the Critical Thinking Bot's text input box. All that is needed at this stage is the raw text of the article, which can just be copied and pasted.
+The following text is what the AI output. The AI has instructions to divide its commentary into four sections, which you can see below. These sections help users facilitate their own critical thinking through summarization, questions, and counterarguments.*
 
 Key Points Summary:
 
@@ -33,9 +34,10 @@ Potential Counterarguments:
     
 
 # Human analysis
-*AI can't be perfect, which is why deeper analysis is important when thinking critically. AI is a great tool to use, but only when it's coupled with human evaluation as well.*
+*AI can't be perfect, which is why deeper analysis is important when thinking critically. AI is a great tool to use, but only when it's coupled with human evaluation as well.
+In this case, my analysis is focused on what the AI did not capture in its critical thinking analysis, which included the context in which the article was written, the point of view of the author, and the implicit statements the author was making about traditional Japanese culture.*
 
 The AI captures the key points of the article, but it doesn’t analyze the article on a deeper level. The AI is correct that the author comments on how creating an Instagram account can mean that the Japanese royal family is trying to bridge the gap between its current audience and the young people of Japan, but it missed key concepts to consider when analyzing this article.
 
-For example, the article points out the concept of tension between tradition and modernization in Japan. This is certainly true, but what’s also important is to analyze this article from a more distant viewpoint. The New York Times is an American newspaper, so it might be worth asking why this story was written and published, versus another story about Japan that might paint the country in a different light. Other things that the AI didn’t point out is that the genre of this piece is an opinion piece, meaning the author was not required to strictly adhere to facts. This opinion piece is filtered through the lens of the author’s experience as an American citizen. Instagram is also an American company. The author of the article implied that the Japanese youth are more Americanized than their older counterparts, but he equated Americanization to modernization. The author frames this Americanization as progress, which some people may not agree with.
 
+For example, the article points out the concept of tension between tradition and modernization in Japan. This is certainly true, but what’s also important is to analyze this article from a more distant viewpoint. The New York Times is an American newspaper, so it might be worth asking why this story was written and published, versus another story about Japan that might paint the country in a different light. Other things that the AI didn’t point out is that the genre of this piece is an opinion piece, meaning the author was not required to strictly adhere to facts. This opinion piece is filtered through the lens of the author’s experience as an American citizen. Instagram is also an American company. The author of the article implied that the Japanese youth are more Americanized than their older counterparts, but he equated Americanization to modernization. The author frames this Americanization as progress, which some people may not agree with.

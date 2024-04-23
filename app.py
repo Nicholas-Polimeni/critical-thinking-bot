@@ -83,6 +83,11 @@ def app():
         with open("how_to_use.txt", "r", encoding="utf-8") as f:
             st.write(f.read())
 
+        st.image("how_to_use_diagram.jpeg", use_column_width=True)
+
+        with open("how_to_use_ex.txt", "r", encoding="utf-8") as f:
+            st.write(f.read())
+
         with open("how_to_use_2.txt", "r", encoding="utf-8") as f:
             st.info(f.read())
 
