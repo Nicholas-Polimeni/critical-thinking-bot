@@ -104,7 +104,7 @@ def app():
 
     with ex2:
         with st.expander("Article Text", expanded=True):
-            with open("ex1_text.txt", "r", encoding="utf-8") as f:
+            with open("ex2_text.txt", "r", encoding="utf-8") as f:
                 st.write(f.read())
 
         with open("ex2.txt", "r", encoding="utf-8") as f:
